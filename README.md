@@ -10,13 +10,13 @@ All live templates start with:
 * *ni:* for inline-style Neos view helpers (none added yet)
 
 ## Installation
-* Open the templates.xml file with a text editor, mark everything and copy it to your clipboard.
+* Open the templates.xml file with a text editor or directly in github, and copy its contents to your clipboard.
 * Open your JetBrains IDE and go to the live templates settings (Preferences > Editor > Live Templates)
 * Add a new template group and call it "Fluid".
 * Right-click it and select "Paste".
 * Restart your IDE.
 
-Congrats! You can now use the shorthands to generate
+Congrats! You can now use the shorthands to generate Fluid view helpers.
 
 The installation process is also described here: [https://www.jetbrains.com/help/idea/2016.1/sharing-live-templates.html](https://www.jetbrains.com/help/idea/2016.1/sharing-live-templates.html)
 
