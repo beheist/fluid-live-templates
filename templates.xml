@@ -1,0 +1,392 @@
+<template name="fi:ur" value="f:uri.resource(path: '$PATH$', package:'$PCKG$'$ADDNL$)" description="f:uri.resource inline" toReformat="true" toShortenFQNames="true">
+  <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PCKG" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ur" value="&lt;f:uri.resource path=&quot;$PATH$&quot; /&gt;" description="f:uri.resource tag" toReformat="true" toShortenFQNames="true">
+  <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:ua" value="f:uri.action(action:'$ACTN$', controller:'$CONTR$' arguments:'{$ARGS$}'$ADDNL$)" description="f:uri.action inline" toReformat="true" toShortenFQNames="true">
+  <variable name="ACTN" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CONTR" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ua" value="&lt;f:uri.action action=&quot;$ACTN$&quot; controller=&quot;$CONTR$&quot; arguments=&quot;{$ARGS$}&quot;$ADDNL$&gt;$END$&lt;/f:uri.action&gt;" description="f:uri.action tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ACTN" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CONTR" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:tr" value="f:translate(id:'$ID$', value:'$VAL$'$ADDNL$)" description="f:translate inline" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:tr" value="&lt;f:translate id=&quot;$ID$&quot;$ADDNL$&gt;$END$&lt;/f:translate&gt;" description="f:translate tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:c" value="&lt;f:count subject=&quot;{$SUBJECT$}&quot; /&gt;" description="f:count tag" toReformat="true" toShortenFQNames="true">
+  <variable name="SUBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:f" value="&lt;f:form action=&quot;$ACTION$&quot; controller=&quot;$CONTROLLER$&quot; object=&quot;$OBJECT$&quot; objectName=&quot;$OBJECTNAME$&quot;$ADDNL$&gt;&#10;&#9;$END$&#10;&lt;/f:form&gt;" description="f:form tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="OBJECTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fb" value="&lt;f:form.button name=&quot;$NAME$&quot; type=&quot;$TYPE$&quot;$ADDNL$&gt;$END$&lt;/f:form.button&gt;" description="f:form.button tag" toReformat="true" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fcb" value="&lt;f:form.checkbox id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; checked=&quot;{$CHECKED$}&quot; $ADDNL$/&gt;" description="f:form.checkbox tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CHECKED" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fcbp" value="&lt;f:form.checkbox id=&quot;$ID$&quot; property=&quot;$PROP$&quot; value=&quot;$VALUE$&quot; $ADDNL$/&gt;" description="f:form.checkbox tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fh" value="&lt;f:form.hidden name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; $ADDNL$/&gt;" description="f:form.hidden tag" toReformat="true" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fhp" value="&lt;f:form.hidden property=&quot;$PROP$&quot; $ADDNL$/&gt;" description="f:form.hidden tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:for" value="&lt;f:for each=&quot;{$EACH$}&quot; as=&quot;$AS$&quot;$ADDNL$&gt;&#10;&#9;$END$&#10;&lt;/f:if&gt;" description="f:for tag" toReformat="true" toShortenFQNames="true">
+  <variable name="EACH" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="AS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fpw" value="&lt;f:form.password id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.password tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fpwp" value="&lt;f:form.password id=&quot;$ID$&quot; property=&quot;$PROP$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.password tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fr" value="&lt;f:form.radio id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; checked=&quot;{$CHECKED$}&quot; $ADDNL$/&gt;" description="f:form.radio tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CHECKED" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:frp" value="&lt;f:form.radio id=&quot;$ID$&quot; property=&quot;$PROP$&quot; value=&quot;$VALUE$&quot; $ADDNL$/&gt;" description="f:form.radio tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fs" value="&lt;f:form.select id=&quot;$ID$&quot; name=&quot;$NAME$&quot; options=&quot;{$OPTS$}&quot; $ADDNL$/&gt;" description="f:form.select tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="OPTS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fsm" value="&lt;f:form.submit name=&quot;$NAME$&quot; value=&quot;$VAL$&quot; $ADDNL$/&gt;" description="f:form.submit tag" toReformat="true" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fsp" value="&lt;f:form.select id=&quot;$ID$&quot; property=&quot;$PROP$&quot; options=&quot;{$OPTS$}&quot; $ADDNL$/&gt;" description="f:form.select tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="OPTS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ft" value="&lt;f:form.textfield id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.textfield tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:fta" value="&lt;f:form.textarea id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.textarea tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ftap" value="&lt;f:form.textarea id=&quot;$ID$&quot; property=&quot;$PROP$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.textarea tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ftp" value="&lt;f:form.textfield id=&quot;$ID$&quot; property=&quot;$PROP$&quot; placeholder=&quot;$PLACEHOLDER$&quot; $ADDNL$/&gt;" description="f:form.textfield tag, using property" toReformat="true" toShortenFQNames="true">
+  <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:if" value="&lt;f:if condition=&quot;{$COND$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/f:if&gt;" description="f:if tag, without then" toReformat="true" toShortenFQNames="true">
+  <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:ift" value="&lt;f:if condition=&quot;{$COND$}&quot;&gt;&#10;&#9;&lt;f:then&gt;&#10;&#9;&#9;$THEN$&#10;&#9;&lt;/f:then&gt;&#10;&#9;&lt;f:else&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/f:else&gt;&#10;&lt;/f:if&gt;" description="f:if tag, with then/else" toReformat="true" toShortenFQNames="true">
+  <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:la" value="&lt;f:link.action action=&quot;$ACTN$&quot; controller=&quot;$CONTROLLER$&quot; arguments=&quot;$ARGS$&quot;$ADDNL$&gt;$END$&lt;/f:link.action&gt;" description="f:link.action tag" toReformat="true" toShortenFQNames="true">
+  <variable name="ACTN" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:le" value="&lt;f:link.email email=&quot;$EMAIL$&quot; /&gt;" description="f:link.email tag" toReformat="true" toShortenFQNames="true">
+  <variable name="EMAIL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtc" value="&lt;f:format.case value=&quot;{$VALUE$}&quot; mode=&quot;$MODE$&quot; /&gt;" description="f:format.case tag" toReformat="true" toShortenFQNames="true">
+  <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtcr" value="&lt;f:format.crop maxCharacters=&quot;{$MAXCHARS$}&quot; $ADDNL$/&gt;" description="f:format.crop tag" toReformat="true" toShortenFQNames="true">
+  <variable name="MAXCHARS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtcu" value="&lt;f:format.currency currencySign=&quot;$CUR$&quot; decimalSeparator=&quot;$DECS$&quot; thousandsSeparator=&quot;$THOUS$&quot;&gt;{$VAL$}&lt;/f:format.currency&gt;" description="f:format.currency tag" toReformat="true" toShortenFQNames="true">
+  <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THOUS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtd" value="&lt;f:format.date format=&quot;$FMT$&quot;&gt;{$VAL$}&lt;/f:format.date&gt;" description="f:format.date tag" toReformat="true" toShortenFQNames="true">
+  <variable name="FMT" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtn" value="&lt;f:format.number decimals=&quot;$NUMDECS$&quot; decimalSeparator=&quot;$DECS$&quot; thousandsSeparator=&quot;$THOUS$&quot;&gt;{$VAL$}&lt;/f:format.number&gt;" description="f:format.number tag" toReformat="true" toShortenFQNames="true">
+  <variable name="NUMDECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THOUS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:mtr" value="&lt;f:format.raw&gt;{$VAL$}&lt;/f:format.raw&gt;" description="f:format.raw tag" toReformat="true" toShortenFQNames="true">
+  <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="f:r" value="&lt;f:render partial=&quot;$PART$&quot; arguments=&quot;{$ARGS$}&quot; $ADDNL$/&gt;" description="f:render tag" toReformat="true" toShortenFQNames="true">
+  <variable name="PART" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ADDNL" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:c" value="f:count()" description="f:count inline" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:ift" value="f:if(condition:'{$COND$}', then:'$THEN$', else:'$ELSE$')" description="f:if inline, with then/else" toReformat="true" toShortenFQNames="true">
+  <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtc" value="f:format.case(mode:'$MODE$')" description="f:format.case inline" toReformat="true" toShortenFQNames="true">
+  <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtcr" value="f:format.crop(maxCharacters:'$MAXCHARS$')" description="f:format.crop inline" toReformat="true" toShortenFQNames="true">
+  <variable name="MAXCHARS" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtcu" value="f:format.currency(currencySign:'$CUR$', decimalSeparator:'$DECS$', thousandsSeparator:'$THOUS$')" description="f:format.currency inline" toReformat="true" toShortenFQNames="true">
+  <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THOUS" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtd" value="f:format.date(format:'$FMT$')" description="f:format.date inline" toReformat="true" toShortenFQNames="true">
+  <variable name="FMT" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtn" value="f:format.number(decimals:'$NUMDECS$', decimalSeparator:'$DECS$', thousandsSeparator:'$THOUS$')" description="f:format.number inline" toReformat="true" toShortenFQNames="true">
+  <variable name="NUMDECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DECS" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THOUS" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
+<template name="fi:mtr" value="f:format.raw()" description="f:format.raw inline" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="HTML_TEXT" value="true" />
+    <option name="HTML" value="true" />
+  </context>
+</template>
